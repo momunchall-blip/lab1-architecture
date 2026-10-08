@@ -35,3 +35,4 @@
 | reviews | id, hotel_id → hotels, rating (1–5), text, sentiment, created_at | CHECK rating BETWEEN 1 AND 5 |
 | alert_rules | id, hotel_id → hotels, metric (`occupancy` / `rating`), threshold | один порог на метрику и отель |
 | alerts | id, rule_id → alert_rules, metric_id → daily_metrics, sent_at | — |
+Версия документа: 1.0
